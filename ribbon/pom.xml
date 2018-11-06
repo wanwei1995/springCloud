@@ -6,12 +6,11 @@
 		<artifactId>springCloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>client</artifactId>
-
+	<artifactId>ribbon</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-client</artifactId>
+			<artifactId>spring-cloud-starter-ribbon</artifactId>
 		</dependency>
 	</dependencies>
 </project>
